@@ -1,0 +1,1018 @@
+<!doctype html>
+<html data-n-head-ssr data-n-head="">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <head data-n-head="">
+      <title data-n-head="true">Covid-19 Statistics</title>
+      <meta data-n-head="true" charset="utf-8"/>
+      <meta data-n-head="true" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+      <meta data-n-head="true" data-hid="twitter:image" name="twitter:image" content="../www.datocms-assets.com/10542/1562162203-logo-solo.png"/>
+      <link data-n-head="true" rel="icon" type="image/x-icon" href="favicon.png"/>
+      <script data-n-head="true" src="../www.googletagmanager.com/gtm1cdf.js?id=GTM-TXL75JW&amp;l=dataLayer" async="true"></script>
+      <link rel="preload" href="./font/c74bf94161b9a5a00b51.js" as="script">
+      <link rel="preload" href="./font/89b446bbbf3a56e8a169.js" as="script">
+      <link rel="preload" href="./font/41055db22c6795ba4f95.js" as="script">
+      <link rel="preload" href="./font/24778f415a4fd1513892.js" as="script">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <style data-vue-ssr-id="2c951650:0 1256a8d6:0 17cfdfa9:0 747c6064:0 2519f5aa:0 77554622:0 6876166e:0 4af37f66:0 2a00917e:0 440ec8ff:0 58eb139a:0 4063cf19:0 2e28842f:0 8ef7ec64:0 b69803ac:0 13fc4d9e:0 3338fd06:0 22844bf4:0 46d6355a:0 2e6c2243:0 0d9734b5:0">
+      html {
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%
+      }
+
+      body {
+      	-webkit-font-smoothing: antialiased;
+      	font-smoothing: antialiased;
+      	font-smooth: always;
+      	font-family: SkiltGothic;
+      	background-color: #f7fbfb
+      }
+      @font-face {
+      	font-family: SkiltGothic;
+      	src: url(./font/fonts/7667f82.eot);
+      	src: url(./font/fonts/7667f82d41d.eot?#iefix) format("embedded-opentype"), url(./font/fonts/6554c6f.woff2) format("woff2"), url(./font/fonts/0af9b81.woff) format("woff"), url(./font/fonts/56af04f.ttf) format("truetype");
+      	font-weight: 300;
+      	font-style: normal
+      }
+
+      @font-face {
+      	font-family: SkiltGothic;
+      	src: url(./font/fonts/2904c6b.eot);
+      	src: url(./font/fonts/2904c6bd41d.eot?#iefix) format("embedded-opentype"), url(./font/fonts/3a120d6.woff2) format("woff2"), url(./font/fonts/44ada54.woff) format("woff"), url(./font/fonts/7f3107f.ttf) format("truetype");
+      	font-weight: 900;
+      	font-style: normal
+      }
+
+      @font-face {
+      	font-family: SkiltGothic;
+      	src: url(./font/fonts/60d3366.eot);
+      	src: url(./font/fonts/60d3366d41d.eot?#iefix) format("embedded-opentype"), url(./font/fonts/9e0b1dc.woff2) format("woff2"), url(./font/fonts/1af07f4.woff) format("woff"), url(./font/fonts/2012a75.ttf) format("truetype");
+      	font-weight: 700;
+      	font-style: normal
+      }
+
+      @font-face {
+      	font-family: SkiltGothic;
+      	src: url(./font/fonts/c446a99.eot);
+      	src: url(./font/fonts/c446a99d41d.eot?#iefix) format("embedded-opentype"), url(./font/fonts/803b46b.woff2) format("woff2"), url(./font/fonts/ecc6f84.woff) format("woff"), url(./font/fonts/8d5c110.ttf) format("truetype");
+      	font-weight: 400;
+      	font-style: normal
+      }
+
+
+
+      .tooltip {
+position: relative;
+display: inline-block;
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 150px;
+background-color: grey;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -150px;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+.forSearch{
+  display: none;
+}
+      </style>
+      <link rel="stylesheet" type="text/css" href="css/home.css">
+      <!-- <link rel="stylesheet" type="text/css" href="css/home.css"> -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+      <script  src="js/script.js"></script>
+   </head>
+   <body data-n-head="">
+     <div class="forSearch">Coronavirus numbers in India
+       covid19 numbers in India
+       coronavirus in India
+       coronavirus India
+       India coronavirus
+       number of cases of coronavirus in India
+       coronavirus deaths in India</div>
+      <div data-server-rendered="true" id="_./font">
+         <!---->
+         <div id="__layout">
+            <div class="default" data-v-4f25a29e>
+               <div data-v-0ab992b5 data-v-4f25a29e>
+                  <div class="fixed" data-v-0ab992b5>
+                     <div class="nav" data-v-0ab992b5>
+                        <div class="nav-content" data-v-0ab992b5>
+                           <!-- <a href="index.html" class="logo router-link-exact-active router-link-active" data-v-0ab992b5>
+
+                           </a> -->
+                           <div class="main-menu" data-v-3d090ec2 data-v-0ab992b5><a href="index.html" id="790321" class="item" data-v-51622740 data-v-3d090ec2><img src="images/logo.jpeg" height="50" width="200"></a></div>
+                           <div class="mobile-menu" data-v-31b77b2c data-v-0ab992b5>
+                              <a href="index.html" id="790321" class="item" data-v-51622740 data-v-3d090ec2><img src="images/logo.jpeg" height="40" width="160"></a>
+                              <!----> <!---->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="nav-placeholder" data-v-0ab992b5></div>
+               </div>
+               <div class="frontpage" data-v-54cd7051 data-v-4f25a29e>
+                 <div class="hero" data-v-d60f2edc data-v-54cd7051>
+                    <div class="video-container" data-v-d60f2edc>
+
+                       <div class="overlay" data-v-d60f2edc>
+                         <div class='toggle'>
+
+                           <div class='tabs'>
+                             <div class='tab active'>COVID-19</div>
+                             <div class='tab'>SYMPTOMS</div>
+                             <div class='tab'>PREVENTION</div>
+                             <div class='tab'>TREATMENT</div>
+                             <div class="border"></div>
+                           </div>
+                           <div class='panels'>
+                             <div class='panel'>
+                               Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+                               Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+                               <br>The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.
+                               <br>The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
+                               <br>At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.
+                             </div>
+                             <div class='panel'>
+                               The COVID-19 virus affects different people in different ways.  COVID-19 is a respiratory disease and most infected people will develop mild to moderate symptoms and recover without requiring special treatment.  People who have underlying medical conditions and those over 60 years old have a higher risk of developing severe disease and death.
+                               <br>Common symptoms include:
+                               <ul><li>Fever
+                               <li>Tiredness
+                               <li>Dry cough
+                               </ul>
+                               Other symptoms include:
+                               <ul><li>Shortness of breath
+                               <li>Aches and pains
+                               <li>Sore throat
+                               <li>And very few people will report diarrhoea, nausea or a runny nose
+                               </ul>
+                               <br>People with mild symptoms who are otherwise healthy should self-isolate and contact their medical provider or a COVID-19 information line for advice on testing and referral.
+                             </div>
+                             <div class='panel'>To prevent infection and to slow transmission of COVID-19, do the following:
+                               <ul>
+                                <li>Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub
+                                <li>Maintain at least 1 metre distance between you and people coughing or sneezing
+                                <li>Avoid touching your face
+                                <li>Cover your mouth and nose when coughing or sneezing
+                                <li>Stay home if you feel unwell
+                                <li>Refrain from smoking and other activities that weaken the lungs
+                                <li>Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people
+                              </ul>
+                             </div>
+                             <div class='panel'>There’s currently no treatment specifically approved for COVID-19, and no cure for an infection, although treatments and vaccines are currently under study. Instead, treatment focuses on managing symptoms as the virus runs its course.
+                                Seek immediate medical help if you think you have COVID-19. Your doctor will recommend treatment for any symptoms or complications that develop.
+                                <br>Other coronaviruses like SARS and MERS are also treated by managing symptoms. In some cases, experimental treatments are tested to see how effective they are. Examples of therapies used for these illnesses include:
+                                <ul>
+                                <li>Antiviral or retroviral medications
+                                <li>Breathing support, such as mechanical ventilation
+                                <li>Steroids to reduce lung swelling
+                                <li>Blood plasma transfusions
+                                  <ul>
+                             </div>
+                           </div>
+                         </div>
+
+                       </div>
+                    </div>
+
+                    <!-- <div class="limit" data-v-d60f2edc>
+                       <div class="caption" data-v-d60f2edc data-v-d60f2edc>
+                          <h1 class="headline" data-v-d60f2edc>The Most Bicycle-Friendly Cities of 2019</h1>
+                          <p class="description" data-v-d60f2edc>The Copenhagenize Index is the most comprehensive and holistic ranking of bicycle-friendly cities on planet earth.</p>
+                          <div class="btns" data-v-d60f2edc><a href="#index" class="btn btn--blue" data-v-d60f2edc>See the list</a> <a href="about/the-index.html" class="btn btn--ghost" data-v-d60f2edc>About the index</a></div>
+                       </div>
+                    </div> -->
+                 </div>
+
+                  <div class="index" data-v-2779b61c data-v-54cd7051>
+                     <div class="container" data-v-2779b61c>
+                       <div class="top" data-v-2779b61c>
+                          <h2 data-v-2779b61c>Covid-19 statistics in India</h2>
+                          <div class="tooltip" data-v-d25cb4b8 data-v-650598e8>
+                             <div class="icon" data-v-d25cb4b8>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="info-circle" class="__2Jyx150__svg-inline--fa __2Jyx150__fa-info-circle __2Jyx150__fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                   <path fill="currentColor" d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-36 344h12V232h-12c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h48c6.627 0 12 5.373 12 12v140h12c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12h-72c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12zm36-240c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32z"></path>
+                                </svg>
+                             </div>
+                             <span class="tooltiptext">Data collected from Various sources. Updated 2 times a day.</span>
+                             <!----> <!---->
+                          </div>
+                       </div>
+                       <div class="items" data-v-2779b61c data-v-2779b61c>
+                         <a id="787320" infrastructure="4.0" culture="3.8" politics="4.0" index15="01" index13="02" index11="02" class="link" style="max-height: 120px;cursor: auto;--v0:#008775;--v1:#008775;--v2:#008775;--v3:#008775;" data-v-63026600 data-v-2779b61c>
+                           <div class="item index-02" data-v-63026600>
+                              <div class="top" data-v-63026600>
+                                 <div class="indexes" data-v-63026600>
+                                    <div class="index19" data-v-63026600>Total Cases</div>
+                                 </div>
+                              </div>
+                              <div class="bottom" data-v-63026600>
+                                 <div class="total-score total-score--desk" data-v-63026600>1201</div>
+                                 <!---->
+                              </div>
+                              <div class="arrow arrow--sm" data-v-63026600>
+                                 1201
+                              </div>
+                           </div>
+                         </a>
+                         <a id="787320" infrastructure="4.0" culture="3.8" politics="4.0" index15="01" index13="02" index11="02" class="link" style="max-height: 120px;cursor: auto;--v0:#008775;--v1:#008775;--v2:#008775;--v3:#008775;" data-v-63026600 data-v-2779b61c>
+                           <div class="item index-02" data-v-63026600>
+                              <div class="top" data-v-63026600>
+                                 <div class="indexes" data-v-63026600>
+                                    <div class="index19" data-v-63026600>New Cases</div>
+                                 </div>
+                              </div>
+                              <div class="bottom" data-v-63026600>
+                                 <div class="total-score total-score--desk" data-v-63026600>47</div>
+                                 <!---->
+                              </div>
+                              <div class="arrow arrow--sm" data-v-63026600>
+                                 47
+                              </div>
+                           </div>
+                         </a>
+                         <a id="787320" infrastructure="4.0" culture="3.8" politics="4.0" index15="01" index13="02" index11="02" class="link" style="max-height: 120px;cursor: auto;--v0:#008775;--v1:#008775;--v2:#008775;--v3:#008775;" data-v-63026600 data-v-2779b61c>
+                           <div class="item index-02" data-v-63026600>
+                              <div class="top" data-v-63026600>
+                                 <div class="indexes" data-v-63026600>
+                                    <div class="index19" data-v-63026600>Total Deaths</div>
+                                 </div>
+                              </div>
+                              <div class="bottom" data-v-63026600>
+                                 <div class="total-score total-score--desk" data-v-63026600>33</div>
+                                 <!---->
+                              </div>
+                              <div class="arrow arrow--sm" data-v-63026600>
+                                 33
+                              </div>
+                           </div>
+                         </a>
+                         <a id="787320" infrastructure="4.0" culture="3.8" politics="4.0" index15="01" index13="02" index11="02" class="link" style="max-height: 120px;cursor: auto;--v0:#008775;--v1:#008775;--v2:#008775;--v3:#008775;" data-v-63026600 data-v-2779b61c>
+                           <div class="item index-02" data-v-63026600>
+                              <div class="top" data-v-63026600>
+                                 <div class="indexes" data-v-63026600>
+                                    <div class="index19" data-v-63026600>Recoveries</div>
+                                 </div>
+                              </div>
+                              <div class="bottom" data-v-63026600>
+                                 <div class="total-score total-score--desk" data-v-63026600>127</div>
+                                 <!---->
+                              </div>
+                              <div class="arrow arrow--sm" data-v-63026600>
+                                 127
+                              </div>
+                           </div>
+                         </a>
+                         <a id="787320" infrastructure="4.0" culture="3.8" politics="4.0" index15="01" index13="02" index11="02" class="link" style="max-height: 120px;cursor: auto;--v0:#008775;--v1:#008775;--v2:#008775;--v3:#008775;" data-v-63026600 data-v-2779b61c>
+                           <div class="item index-02" data-v-63026600>
+                              <div class="top" data-v-63026600>
+                                 <div class="indexes" data-v-63026600>
+                                    <div class="index19" data-v-63026600>Active Cases</div>
+                                 </div>
+                              </div>
+                              <div class="bottom" data-v-63026600>
+                                 <div class="total-score total-score--desk" data-v-63026600>1041</div>
+                                 <!---->
+                              </div>
+                              <div class="arrow arrow--sm" data-v-63026600>
+                                 1041
+                              </div>
+                           </div>
+                         </a>
+                       </div>
+
+                        <div class="top" data-v-2779b61c>
+                           <h2 data-v-2779b61c>State-wise Statistics</h2>
+
+                        </div>
+                        <div class="items" data-v-2779b61c data-v-2779b61c>
+                           <a href="cities/maharashtra.html" id="787320" infrastructure="4.0" culture="3.8" politics="4.0" index15="01" index13="02" index11="02" class="link" style="--v0:#008775;--v1:#008775;--v2:#008775;--v3:#008775;" data-v-63026600 data-v-2779b61c>
+                             <div class="item index-01" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>01</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Maharashtra</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 215</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 215</div>
+                                   <!----> <!---->
+                                </div>
+                                <!---->
+                             </div>
+                           </a>
+                           <a href="cities/kerala.html" id="795314" infrastructure="3.7" culture="3.8" politics="3.8" index15="02" index13="01" index11="01" class="link" style="--v0:#109B7E;--v1:#109B7E;--v2:#109B7E;--v3:#109B7E;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-02" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>02</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Kerala</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 202</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 202</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/telangana.html" id="795307" infrastructure="3.7" culture="3.8" politics="3.8" index15="03" index13="03" index11="" class="link" style="--v0:#1BAD84;--v1:#1BAD84;--v2:#1BAD84;--v3:#1BAD84;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-03" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>03</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Telangana</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 66</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 66</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/karnataka.html" id="795333" infrastructure="3.3" culture="3.3" politics="2.9" index15="09" index13="07" index11="" class="link" style="--v0:#28C18C;--v1:#28C18C;--v2:#28C18C;--v3:#28C18C;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-04" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>04</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Karnataka</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 76</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 76</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/rajasthan.html" id="787101" infrastructure="3.3" culture="2.8" politics="2.9" index15="08" index13="" index11="" class="link" style="--v0:#35D393;--v1:#35D393;--v2:#35D393;--v3:#35D393;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-05" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>05</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Rajasthan</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 56</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 56</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/uttar.html" id="795318" infrastructure="2.5" culture="2.8" politics="3.4" index15="07" index13="05" index11="" class="link" style="--v0:#0099D3;--v1:#0099D3;--v2:#0099D3;--v3:#0099D3;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-06" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>06</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Uttar Pradesh</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 65</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 65</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/gujarat.html" id="795366" infrastructure="2.7" culture="2.3" politics="2.9" index15="" index13="" index11="" class="link" style="--v0:#0972D5;--v1:#0972D5;--v2:#0972D5;--v3:#0972D5;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-07" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>07</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Gujarat</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 58</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 58</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/delhi.html" id="795348" infrastructure="2.7" culture="1.8" politics="3.4" index15="19" index13="19" index11="06" class="link" style="--v0:#0F4DD7;--v1:#0F4DD7;--v2:#0F4DD7;--v3:#0F4DD7;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-08" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>08</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Delhi</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 49</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 49</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/punjab.html" id="754790" infrastructure="2.8" culture="2.3" politics="2.8" index15="20" index13="20" index11="18" class="link" style="--v0:#1826D9;--v1:#1826D9;--v2:#1826D9;--v3:#1826D9;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-09" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>09</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Punjab</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 38</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 38</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/tamil.html" id="795363" infrastructure="2.7" culture="2.7" politics="2.1" index15="" index13="" index11="14" class="link" style="--v0:#2000DB;--v1:#2000DB;--v2:#2000DB;--v3:#2000DB;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-10" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>10</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Tamil Nadu</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 50</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 50</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/haryana.html" id="795317" infrastructure="2.0" culture="2.8" politics="2.3" index15="" index13="" index11="" class="link" style="--v0:#481793;--v1:#481793;--v2:#481793;--v3:#481793;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-11" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>11</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Haryana</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 35</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 35</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/madhya.html" id="795356" infrastructure="2.3" culture="2.2" politics="2.8" index15="" index13="" index11="" class="link" style="--v0:#5F1083;--v1:#5F1083;--v2:#5F1083;--v3:#5F1083;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-12" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>12</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Madhya Pradesh</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 30</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 30</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/jammu.html" id="787311" infrastructure="2.3" culture="2.2" politics="2.5" index15="12" index13="17" index11="3" class="link" style="--v0:#780A72;--v1:#780A72;--v2:#780A72;--v3:#780A72;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-13" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>13</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Jammu and Kashmir</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 31</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 31</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/ladakh.html" id="795342" infrastructure="2.7" culture="2.3" politics="2.5" index15="13" index13="" index11="" class="link" style="--v0:#910660;--v1:#910660;--v2:#910660;--v3:#910660;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-14" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>14</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Ladakh</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 13</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 13</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/andhra.html" id="795345" infrastructure="2.2" culture="2.1" politics="2.8" index15="18" index13="10" index11="04" class="link" style="--v0:#A90150;--v1:#A90150;--v2:#A90150;--v3:#A90150;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-15" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>15</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Andhra Pradesh</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 19</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 19</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/west.html" id="795338" infrastructure="2.5" culture="2.7" politics="1.9" index15="" index13="12" index11="04" class="link" style="--v0:#EF241B;--v1:#EF241B;--v2:#EF241B;--v3:#EF241B;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-16" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>16</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>West Bengal</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 18</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 18</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/chandigarh.html" id="795359" infrastructure="2.0" culture="2.1" politics="2.8" index15="" index13="" index11="" class="link" style="--v0:#EB3915;--v1:#EB3915;--v2:#EB3915;--v3:#EB3915;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-17" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>17</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Chandigarh</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 8</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 8</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/bihar.html" id="795360" infrastructure="2.3" culture="2.2" politics="2.6" index15="" index13="" index11="" class="link" style="--v0:#E9520F;--v1:#E9520F;--v2:#E9520F;--v3:#E9520F;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-18" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>18</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Bihar</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 15</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 15</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/chhattisgarh.html" id="754856" infrastructure="2.3" culture="1.8" politics="3.0" index15="20" index13="14" index11="07" class="link" style="--v0:#E9520F;--v1:#E9520F;--v2:#E9520F;--v3:#E9520F;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-18" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>19</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Chhattisgarh</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 7</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 7</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/andaman.html" id="754856" infrastructure="2.3" culture="1.8" politics="3.0" index15="20" index13="14" index11="07" class="link" style="--v0:#E9520F;--v1:#E9520F;--v2:#E9520F;--v3:#E9520F;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-18" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>20</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Andaman and Nicobar Islands</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 9</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 9</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/uttarakhand.html" id="795362" infrastructure="2.3" culture="2.4" politics="2.1" index15="19" index13="20" index11="10" class="link" style="--v0:#E38102;--v1:#E38102;--v2:#E38102;--v3:#E38102;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-20" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>21</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Uttarakhand</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 7</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 7</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/odisha.html" id="795362" infrastructure="2.3" culture="2.4" politics="2.1" index15="19" index13="20" index11="10" class="link" style="--v0:#E38102;--v1:#E38102;--v2:#E38102;--v3:#E38102;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-20" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>22</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Odisha</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 3</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 3</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/himachal.html" id="795362" infrastructure="2.3" culture="2.4" politics="2.1" index15="19" index13="20" index11="10" class="link" style="--v0:#E38102;--v1:#E38102;--v2:#E38102;--v3:#E38102;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-20" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>23</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Himachal Pradesh</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 3</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 3</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/goa.html" id="795362" infrastructure="2.3" culture="2.4" politics="2.1" index15="19" index13="20" index11="10" class="link" style="--v0:#E38102;--v1:#E38102;--v2:#E38102;--v3:#E38102;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-20" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>24</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Goa</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 5</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 5</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+                           <a href="cities/puducherry.html" id="795362" infrastructure="2.3" culture="2.4" politics="2.1" index15="19" index13="20" index11="10" class="link" style="--v0:#E38102;--v1:#E38102;--v2:#E38102;--v3:#E38102;" data-v-63026600 data-v-2779b61c>
+                              <div class="item index-20" data-v-63026600>
+                                <div class="top" data-v-63026600>
+                                   <div class="indexes" data-v-63026600>
+                                      <div class="index19" data-v-63026600>25</div>
+                                   </div>
+                                   <!---->
+                                </div>
+                                <div class="middle" data-v-63026600>
+                                   <div class="city-info" data-v-63026600>
+                                      <!---->
+                                      <div class="name colorize" data-v-63026600>Puducherry</div>
+                                   </div>
+                                   <div class="city-score" data-v-63026600>
+                                      <div class="total-score total-score--sm" data-v-63026600>Total Cases: 1</div>
+                                      <!---->
+                                   </div>
+                                </div>
+                                <div class="bottom" data-v-63026600>
+                                   <div class="total-score total-score--desk" data-v-63026600>Total Cases: 1</div>
+                                   <!----> <!---->
+                                </div>
+                              </div>
+                           </a>
+
+                        </div>
+                     </div>
+                  </div>
+                  <div class="cta" data-v-f640d986 data-v-4f25a29e>
+                     <div class="limit" data-v-f640d986>
+                        <div class="container" data-v-f640d986 data-v-f640d986>
+                           <h2 class="headline" data-v-f640d986>Make the most of available resources</h2>
+                           <p class="description" data-v-f640d986>(Check the below links for useful resources)</p>
+                           <div class="content" data-v-f640d986>
+                              <div class="subjects" data-v-f640d986 data-v-f640d986>
+                                 <a href="success-stories/government.html" class="subject" data-v-f640d986>
+                                    <div class="title" data-v-f640d986>Useful government links</div>
+                                 </a>
+                                 <a href="success-stories/startup.html" class="subject" data-v-f640d986>
+                                    <div class="title" data-v-f640d986>Startups in fight against Coronavirus</div>
+                                 </a>
+                                 <a href="success-stories/donate.html" class="subject" data-v-f640d986>
+                                    <div class="title" data-v-f640d986>Donate Now</div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="success-stories" data-v-045f8bd2 data-v-54cd7051>
+                     <div class="content" data-v-045f8bd2 data-v-045f8bd2>
+                        <div class="limit" data-v-045f8bd2>
+                           <h2 class="headline" data-v-045f8bd2>Pass some time during lockdown</h2>
+                           <div class="items" data-v-045f8bd2>
+                              <a href="success-stories/movies.html" id="790437" class="item" data-v-06ed8911 data-v-045f8bd2>
+                                 <div class="image" style="background-image:url(images/netflix.jpg);" data-v-06ed8911></div>
+                                 <div class="overlay" data-v-06ed8911></div>
+                                 <div class="meta" data-v-06ed8911>
+                                    <div class="caption" data-v-06ed8911>
+                                       <div class="empty" data-v-06ed8911></div>
+                                       <div class="title" data-v-06ed8911>A list of movies to watch</div>
+                                       <div class="city" data-v-06ed8911>Hollywood only</div>
+                                    </div>
+                                 </div>
+                              </a>
+                              <a href="success-stories/internet.html" id="790438" class="item" data-v-06ed8911 data-v-045f8bd2>
+                                 <div class="image" style="background-image:url(images/internet.jpg);" data-v-06ed8911></div>
+                                 <div class="overlay" data-v-06ed8911></div>
+                                 <div class="meta" data-v-06ed8911>
+                                    <div class="caption" data-v-06ed8911>
+                                       <div class="empty" data-v-06ed8911></div>
+                                       <div class="title" data-v-06ed8911>Check the internet for ideas</div>
+                                       <div class="city" data-v-06ed8911>Website links</div>
+                                    </div>
+                                 </div>
+                              </a>
+                              <a href="success-stories/youtube.html" id="790441" class="item" data-v-06ed8911 data-v-045f8bd2>
+                                 <div class="image" style="background-image:url(images/youtube.jpg);" data-v-06ed8911></div>
+                                 <div class="overlay" data-v-06ed8911></div>
+                                 <div class="meta" data-v-06ed8911>
+                                    <div class="caption" data-v-06ed8911>
+                                       <div class="empty" data-v-06ed8911></div>
+                                       <div class="title" data-v-06ed8911>Best youtube channels in different categories</div>
+                                       <div class="city" data-v-06ed8911>Youtube videos</div>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- <div class="button" data-v-045f8bd2><a href="success-stories.html" class="btn btn--blue" data-v-045f8bd2>See all stories</a></div> -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="footer" data-v-782ec962 data-v-4f25a29e>
+                  <div class="limit" data-v-782ec962>
+                     <div class="flex" data-v-782ec962>
+                        <div class="right" data-v-782ec962>
+                           <div class="description pre" data-v-782ec962>Stay Home , Stay Safe</div>
+                           <div class="social" data-v-782ec962>
+                              <div class="label" data-v-782ec962>Follow me on:</div>
+
+                              <div class="social-icons" data-v-782ec962>
+                                 <a href="https://twitter.com/Ish_anZaidi" target="_blank" class="icon" data-v-782ec962>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="__2dwbIVw__svg-inline--fa __2dwbIVw__fa-twitter __2dwbIVw__fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                       <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                    </svg>
+                                 </a>
+                                 <a href="https://www.facebook.com/ishan.zaidi.58" target="_blank" class="icon" data-v-782ec962>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="__MY-TBT2__svg-inline--fa __MY-TBT2__fa-facebook-square __MY-TBT2__fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                       <path fill="currentColor" d="M448 80v352c0 26.5-21.5 48-48 48h-85.3V302.8h60.6l8.7-67.6h-69.3V192c0-19.6 5.4-32.9 33.5-32.9H384V98.7c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9H184v67.6h60.9V480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z"></path>
+                                    </svg>
+                                 </a>
+                                 <a href="https://www.instagram.com/thetypicaltypoguy/" target="_blank" class="icon" data-v-782ec962>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="__1rQNfBa__svg-inline--fa __1rQNfBa__fa-instagram __1rQNfBa__fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                       <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                    </svg>
+                                 </a>
+                                 <a href="https://www.linkedin.com/in/ishanzaidi/" target="_blank" class="icon" data-v-782ec962>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="__2jtmXBN__svg-inline--fa __2jtmXBN__fa-linkedin __2jtmXBN__fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                       <path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                                    </svg>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/home.js"></script>
+      <script src="./font/c74bf94161b9a5a00b51.js" defer></script>
+      <script src="./font/89b446bbbf3a56e8a169.js" defer></script>
+      <script src="./font/41055db22c6795ba4f95.js" defer></script>
+      <script src="./font/24778f415a4fd1513892.js " defer></script>
+   </body>
+</html>
